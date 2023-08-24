@@ -10,15 +10,6 @@ Este es el backend para una aplicación de comercio electrónico. A continuació
 
 3. Configura la base de datos en el archivo `config.js`.
 
-```javascript
-module.exports = {
-  database: {
-    url: 'mongodb://localhost/ecommerce_db',
-  },
-  secretKey: 'tu-secreto-seguro',
-};
-
-Inicia la aplicación con npm start.
 
 Estructura del Proyecto
 /src: Contiene el código fuente de la aplicación.
@@ -33,7 +24,18 @@ config.js: Configuración de la base de datos y secretos.
 package.json: Archivo de configuración de Node.js.
 
 
-Licencia
-Este proyecto está bajo la Licencia MIT.
+```javascript
+module.exports = {
+  database: {
+    url: 'mongodb://localhost/ecommerce_db',
+  },
+  secretKey: 'tu-secreto-seguro',
+};
+
+Inicia la aplicación con npm start.
+
+
+
+
 
 
