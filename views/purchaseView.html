@@ -1,0 +1,43 @@
+<!-- purchaseView.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realizar Compra</title>
+</head>
+<body>
+    <h1>Realizar Compra</h1>
+    
+    <!-- Formulario de compra -->
+    <form action="/comprar" method="POST">
+        <label for="producto">Selecciona un producto:</label>
+        <select name="producto" id="producto">
+            <option value="producto1">Producto 1</option>
+            <option value="producto2">Producto 2</option>
+            <!-- Agrega opciones para tus productos aquí -->
+        </select>
+        
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" name="cantidad" id="cantidad" min="1" value="1">
+        
+        <button type="submit">Comprar</button>
+    </form>
+    
+    <!-- Detalles de productos -->
+    <div class="producto">
+        <h2>Producto 1</h2>
+        <p>Descripción del producto 1.</p>
+        <p>Precio: $100.00</p>
+    </div>
+    
+    <div class="producto">
+        <h2>Producto 2</h2>
+        <p>Descripción del producto 2.</p>
+        <p>Precio: $50.00</p>
+    </div>
+    <!-- Agrega detalles de tus productos aquí -->
+
+</body>
+</html>
